@@ -86,12 +86,19 @@
 <td id="layout-menu">
 <div class="menu-category">about me</div>
 <div class="menu-item"><a href="index.html" class="current">home</a></div>
+<div class="menu-item"><a href="profile.html">profile</a></div>
+<div class="menu-item"><a href="activities.html">activities</a></div>
 <div class="menu-item"><a href="edu/FasihAhmadFakhri.pdf">resume</a></div>
+<div class="menu-category">experience</div>
+<div class="menu-item"><a href="projects.html">projects</a></div>
+<div class="menu-item"><a href="courses.html">courses</a></div>
+<div class="menu-item"><a href="workshops.html">workshops</a></div>
+<div class="menu-item"><a href="conferences.html">conferences</a></div>
 <div class="menu-item"><a href="impress.html">impress</a></div>
 <div class="menu-category">links</div>
+<div class="menu-item"><a href="../jmpress/" target="_blank">jmpress</a></div>
 <div class="menu-item"><a href="http://fedoraproject.org/wiki/User:Fasihahmadfakhri" target="_blank">fedora</a></div>
-<div class="menu-item"><a href="http://github.com/fasihahmad" target="_blank">github</a></div>
-<div class="menu-item"><a href="http://fasihahmad.github.com/" target="_blank">jmpress</a></div>
+<div class="menu-item"><a href="https://github.com/fasihahmad" target="_blank">github</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
@@ -99,10 +106,10 @@
 </div>
 <table class="imgtable"><tr><td>
 <img src="fasihahmadfakhri.jpg" alt="Fasih Ahmad Fakhri" width="170px" height="200px" />&nbsp;</td>
-<td align="left"><p><a href="/">Fasih Ahmad Fakhri</a><br /><br />
+<td align="left"><p><a href="http://www.fasihahmadfakhri.tk/">Fasih Ahmad Fakhri</a><br /><br />
 fasihahmadfakhri [at] fedoraproject [dot] org<br /><br />
-Bachelor of Technology (2008-12)<br />
-Department of Information Technology<br />
+Bachelor of Technology<br />
+<a href="IT_Prospectus.pdf">Department of Information Technology</a><br />
 Haldia Institute of Technology<br />
 Kolkata, India</p>
 </td></tr></table>
@@ -111,7 +118,7 @@ Kolkata, India</p>
 <a href="mailto:fasihahmadfakhri@gmail.com">fasihahmadfakhri@gmail.com</a></p>
 <h2>GPG Key</h2>
 <div id="subtitle">
-<a href="http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0x593262395A0CEB9A">mit pgp server</a><br /><br />
+<a href="http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0x593262395A0CEB9A">@ mit server</a> | <a href="../gpg/">@ local server</a><br /><br />
 <div>
 <pre>
 gpg --fingerprint 5A0CEB9A
@@ -124,7 +131,7 @@ pub   2048R/5A0CEB9A 2011-12-27
 <a href="http://www.linux.org/"><img SRC="logo/linux.gif" ALT="www.linux.org" NOSAVE BORDER=0 height=30 width=88></a>
 <div id="footer">
 <div id="footer-text">
-Page generated 2013-11-05 00:44:49 IST, by <a href="http://fasdoc.tk/">fasdoc</a>.
+Page generated 2012-11-20 00:44:49 IST, by <a href="http://fasdoc.tk/">fasdoc</a>.
 </div>
 </div>
 </td>

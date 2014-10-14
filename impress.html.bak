@@ -1,9 +1,8 @@
-
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
   "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
-<title>Fasih Ahmad Fakhri</title>
+<title>Impress</title>
 <!--
 	#######    #     #####    ###   #     #
 	#         # #   #     #    #    #     #
@@ -79,52 +78,59 @@
 <link rel="shortcut icon" href="favicon.png" />
 <link rel="stylesheet" href="fasdoc.css" type="text/css" />
 <link rel="stylesheet" href="fasih.css" type="text/css" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript"> 
+$(document).ready(function(){
+$(".flip").click(function(){
+    $(".panel").slideToggle("slow");
+  });
+});
+</script>
+ 
+<style type="text/css"> 
+div.panel,pre.flip
+{
+margin:0px;
+padding:5px;
+//text-align:center;
+background:#FFFFFF;
+border:solid 1px #FFFFFF;
+}
+div.panel
+{
+height:80px;
+display:none;
+}
+</style>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
 <td id="layout-menu">
 <div class="menu-category">about me</div>
-<div class="menu-item"><a href="index.html" class="current">home</a></div>
+<div class="menu-item"><a href="index.html">home</a></div>
+<div class="menu-item"><a href="profile.html">profile</a></div>
+<div class="menu-item"><a href="activities.html">activities</a></div>
 <div class="menu-item"><a href="edu/FasihAhmadFakhri.pdf">resume</a></div>
-<div class="menu-item"><a href="impress.html">impress</a></div>
+<div class="menu-category">experience</div>
+<div class="menu-item"><a href="projects.html">projects</a></div>
+<div class="menu-item"><a href="courses.html">courses</a></div>
+<div class="menu-item"><a href="workshops.html">workshops</a></div>
+<div class="menu-item"><a href="conferences.html">conferences</a></div>
+<div class="menu-item"><a href="impress.html" class="current">impress</a></div>
 <div class="menu-category">links</div>
+<div class="menu-item"><a href="../jmpress/" target="_blank">jmpress</a></div>
 <div class="menu-item"><a href="http://fedoraproject.org/wiki/User:Fasihahmadfakhri" target="_blank">fedora</a></div>
-<div class="menu-item"><a href="http://github.com/fasihahmad" target="_blank">github</a></div>
-<div class="menu-item"><a href="http://fasihahmad.github.com/" target="_blank">jmpress</a></div>
+<div class="menu-item"><a href="https://github.com/fasihahmad" target="_blank">github</a></div>
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1>Fasih Ahmad Fakhri</h1>
+<h1>Impress - Presentation</h1>
 </div>
-<table class="imgtable"><tr><td>
-<img src="fasihahmadfakhri.jpg" alt="Fasih Ahmad Fakhri" width="170px" height="200px" />&nbsp;</td>
-<td align="left"><p><a href="/">Fasih Ahmad Fakhri</a><br /><br />
-fasihahmadfakhri [at] fedoraproject [dot] org<br /><br />
-Bachelor of Technology (2008-12)<br />
-Department of Information Technology<br />
-Haldia Institute of Technology<br />
-Kolkata, India</p>
-</td></tr></table>
-<h2>Contact</h2>
-<p>
-<a href="mailto:fasihahmadfakhri@gmail.com">fasihahmadfakhri@gmail.com</a></p>
-<h2>GPG Key</h2>
-<div id="subtitle">
-<a href="http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0x593262395A0CEB9A">mit pgp server</a><br /><br />
-<div>
-<pre>
-gpg --fingerprint 5A0CEB9A
-pub   2048R/5A0CEB9A 2011-12-27
-      Key fingerprint = 4AFB 37C8 F52A 41C9 F3C8  A91B 5932 6239 5A0C EB9A
-</pre>
-</div>
-<h2></h2>
-<a href="http://www.anybrowser.org/campaign/"><img SRC="logo/anybrowser.gif" ALT="anybrowser" NOSAVE BORDER=0 height=30 width=88></a>
-<a href="http://www.linux.org/"><img SRC="logo/linux.gif" ALT="www.linux.org" NOSAVE BORDER=0 height=30 width=88></a>
+<iframe src="http://www.slideshare.net/fasihahmadfakhri/slideshelf" width="700px" height="500px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen></iframe>
 <div id="footer">
 <div id="footer-text">
-Page generated 2013-11-05 00:44:49 IST, by <a href="http://fasdoc.tk/">fasdoc</a>.
+Page generated 2012-09-15 00:44:49 IST, by <a href="http://fasdoc.tk/">fasdoc</a>.
 </div>
 </div>
 </td>
