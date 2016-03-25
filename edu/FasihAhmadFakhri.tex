@@ -4,7 +4,11 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{datenumber}
+\usepackage{datetime}
 
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH], \THEYEAR}
+  
 \newcounter{dateone}
 \newcounter{datetwo}
 
@@ -26,7 +30,7 @@
 
     \hfill mobile: +91-8130-536-905 \vspace{1mm}\\\vspace{1mm}
     \hfill web: fasihahmad.github.com \vspace{1mm}\\\vspace{1mm}
-    \hfill e-mail: fasihahmadfakhri@gmail.com   \vspace{1mm}\\\vspace{1mm}
+    \hfill e-mail: fasihahmadfakhri@gmail.com \vspace{1mm}
     %__________________________________________________________________________________________________________________
     % About Me
     \section{\mysidestyle About Me}
@@ -46,16 +50,16 @@
     \textbf{Anugrah Narayan College, Patna(BSEB, Patna)} \hfill \textbf{May 2007}\vspace{0mm}\\\vspace{0mm}%
     \textsl{Intermediate (Science)} \hfill \textsl{Percentage: 60.0\%}
 
-    \textbf{F. N. S Academy, Patna(BSEB, Patna)} \hfill \textbf{May 2005}\vspace{0mm}\\\vspace{0mm}%
+    \textbf{FNS Academy, Patna(BSEB, Patna)} \hfill \textbf{May 2005}\vspace{0mm}\\\vspace{0mm}%
     \textsl{Matriculation } \hfill \textsl{Percentage: 75.3\%}
     %__________________________________________________________________________________________________________________
     % Computer Skills
     \section{\mysidestyle Technical Skills}
      \begin{itemize}
       \item Programming Languages: Python, JavaScript, Java, C\#, C
-      \item Frameworks/Libraries: Zope, Django, NumPy, SciPy, jQuery
+      \item Frameworks/Libraries: Django, DRF, Zope, NumPy, SciPy, jQuery
       \item Operating Systems: GNU/Linux, Unix, OS X and Windows
-      \item Systems/Tools : AWS, ReviewBoard, Redmine, \LaTeX
+      \item Systems/Tools : AWS, Jenkins, Redmine, ReviewBoard, \LaTeX
       \item Version Control Systems: CVS, Git, Mercurial      
      \end{itemize}
     %__________________________________________________________________________________________________________________
@@ -70,7 +74,7 @@
            \textsl{Software Developer - HTCampus}\\
     \begin{itemize}
     
-     \item \textsl{Design and Development of Online Lead Management System}
+     \item \textsl{Design and Development of Online Lead Generation System}
         \begin{itemize}
             \item Design and develop full-stack web applications for generating \& managing education leads.
         \end{itemize}
@@ -104,6 +108,8 @@
     %__________________________________________________________________________________________________________________
     % Other Projects
 %______________________________________________________________________________________________________________________
+%\hfill \textsl{Compiled on \monthyeardate\today}
+
 \end{resume}
 \end{document}
 
