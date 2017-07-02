@@ -78,9 +78,26 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes"><meta name="author" content="Fasih Ahmad Fakhri" />
-<link rel="shortcut icon" href="favicon.png" />
-<link rel="stylesheet" href="fasdoc.css" type="text/css" />
-<link rel="stylesheet" href="fasih.css" type="text/css" />
+<link rel="shortcut icon" href="../favicon.png" />
+<link rel="stylesheet" href="../fasdoc.css" type="text/css" />
+<link rel="stylesheet" href="../fasih.css" type="text/css" />
+<script type="text/javascript">
+var verifyCallback = function(response) {
+document.getElementById('recaptcha').remove();
+var iframe = document.createElement('iframe');
+iframe.style.width="900px";
+iframe.style.height="700px";
+iframe.frameborder="0";
+iframe.src = "../edu/FasihAhmadFakhri.pdf";
+document.getElementById('resumeiframe').appendChild(iframe);
+};
+var onloadCallback = function() {
+grecaptcha.render('recaptcha', {
+  'sitekey' : '6LdGpCcUAAAAAGd6iJ-1X-p7YtOajXfxKA3WxXAX',
+  'callback' : verifyCallback,
+});
+};
+</script>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -95,25 +112,14 @@
 </td>
 <td id="layout-content">
 <div id="toptitle">
-<h1>Fasih Ahmad Fakhri</h1>
+<a href="../"><h1>Fasih Ahmad Fakhri</h1></a>
 </div>
 <table class="imgtable"><tr>
-<td align="left"><p>
-Bachelor of Technology<br />
-Computer Science & Informatics<br /><br />
-fasihahmadfakhri AT gmail DOT com
-</p>
+<td align="left">
+<div id="resumeiframe"></div>
+<div id="recaptcha"></div>
+<script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
 </td></tr></table>
-<h2>GPG Key</h2>
-<div id="subtitle">
-<a href="http://pgp.mit.edu:11371/pks/lookup?op=vindex&search=0x593262395A0CEB9A">mit pgp server</a><br /><br />
-<div>
-<pre>
-gpg --fingerprint 5A0CEB9A
-pub   2048R/5A0CEB9A 2011-12-27
-      Key fingerprint = 4AFB 37C8 F52A 41C9 F3C8  A91B 5932 6239 5A0C EB9A
-</pre>
-</div>
 <div id="footer">
 <div id="footer-text">
 Page generated 2013-11-05 00:44:49 IST, by <a href="#">fasdoc</a>.
