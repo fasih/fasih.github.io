@@ -1,5 +1,9 @@
 User-agent: *
 Disallow: /
+Disallow: /edu/*
+Disallow: /resume/*
 
 User-agent: Googlebot
 Disallow: /
+Disallow: /edu/*
+Disallow: /resume/*
