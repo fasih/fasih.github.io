@@ -13,13 +13,31 @@
 
 <script type="text/javascript">
 var verifyCallback = function(response) {
-document.getElementById('recaptcha').remove();
-var iframe = document.createElement('iframe');
-iframe.style.width="900px";
-iframe.style.height="700px";
-iframe.frameborder="0";
-iframe.src = "../edu/FasihAhmadFakhri.pdf";
-document.getElementById('resumeiframe').appendChild(iframe);
+	document.getElementById('recaptcha').remove();
+	var urlParams = new URLSearchParams(window.location.search);
+	
+	switch (urlParams.get('type')) {
+		case "pdf":
+			var ext = ".pdf";
+			break;
+		case "tex":
+			var ext = ".tex";
+			break;
+		default:
+			var ext = ".pdf";
+	}
+
+	const root = "../";
+	const folder = "edu/";
+	const file = "FasihAhmadFakhri";
+
+
+	var iframe = document.createElement('iframe');
+	iframe.style.width="900px";
+	iframe.style.height="700px";
+	iframe.frameborder="0";
+	iframe.src = root + folder + file + ext;
+	document.getElementById('resumeiframe').appendChild(iframe);
 };
 var onloadCallback = function() {
 grecaptcha.render('recaptcha', {
