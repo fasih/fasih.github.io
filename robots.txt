@@ -1,11 +1,7 @@
 User-agent: *
 Disallow: /
-Disallow: /edu/*
 Disallow: /resume/*
-Disallow: /edu/FasihAhmadFakhri.pdf
 
 User-agent: Googlebot
 Disallow: /
-Disallow: /edu/*
 Disallow: /resume/*
-Disallow: /edu/FasihAhmadFakhri.pdf
