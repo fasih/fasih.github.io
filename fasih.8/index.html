@@ -26,8 +26,8 @@ var verifyCallback = function(response) {
 			var ext = ".pdf";
 	}
 
-	const root = "../";
-	const folder = "resume/";
+	const glob = "../";
+	const root = "fasih.8/";
 	const file = "FasihAhmadFakhri";
 
 
@@ -35,7 +35,7 @@ var verifyCallback = function(response) {
 	iframe.style.width="900px";
 	iframe.style.height="700px";
 	iframe.frameborder="0";
-	iframe.src = root + folder + file + ext;
+	iframe.src = glob + root + file + ext;
 	document.getElementById('resumeiframe').appendChild(iframe);
 };
 var onloadCallback = function() {
