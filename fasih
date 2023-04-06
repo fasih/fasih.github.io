@@ -1,0 +1,16 @@
+.TH fasih 1 2011-01-05 "fasih(1)" "User's Manual"
+.SH NAME
+fasih - Fasih Ahmad Fakhri
+.SH SYNOPSIS
+fasih [--developer]
+.SH SUMMARY
+crypto anarchist, free software activist, mathematician, programmer, pythonista
+.SH DESCRIPTION
+.RS
+.nf
+- GPG-Key: 0x5A0CEB9A
+- Fingerprint: 4AFB 37C8 F52A 41C9 F3C8 A91B 5932 6239 5A0C EB9A
+- Session-ID: 050fe14bafefcc65b92c6d59d909742b1a5c245f97d99b55a8c37e958924e2502b
+.RE
+.SH SEE ALSO
+fasih(4), fasih(7), fasih(8)
